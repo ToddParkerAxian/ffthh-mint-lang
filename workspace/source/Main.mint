@@ -5,7 +5,7 @@ component Main {
     align-items: center;
     display: flex;
 
-    background-color: #282C34;
+    
     height: 100vh;
     width: 100vw;
 
@@ -17,11 +17,13 @@ component Main {
     <div::app>
       <Logo/>
 
-      <Info mainPath="source/Main.mint"/>
+      <Authenticator/>
 
-      <Link href="https://www.mint-lang.com/">
-        "Learn Mint"
-      </Link>
+      <Greeting/>
+
+      <RotateGreeting/>
+
+      <Logout/>
     </div>
   }
 }
